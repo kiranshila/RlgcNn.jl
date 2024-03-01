@@ -19,7 +19,7 @@ export SsRlgcModel, PretrainedSsRlgcModel
 
 # Un-scaled functor
 function (m::SsRlgcModel)(width::Real, frequency::Real)
-    m.model(@SMatrix [width*1e3; frequency/1e9;;])
+    m.model(@SMatrix [width*1e3; frequency/1e9;;]) .* @SVector [1, 1e-6, 1e-6, 1e-12]
 end
 
 end
