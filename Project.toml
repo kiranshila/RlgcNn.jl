@@ -1,3 +1,8 @@
+name = "RlgcNn"
+uuid = "500ad2ed-00e0-467d-a87d-8a46b0d210fd"
+authors = ["Kiran Shila"]
+version = "1.0.0-DEV"
+
 [deps]
 BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
