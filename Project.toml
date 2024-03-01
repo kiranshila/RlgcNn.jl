@@ -4,17 +4,6 @@ authors = ["Kiran Shila"]
 version = "1.0.0-DEV"
 
 [deps]
-BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
-CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
-CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
-CircuitNetworks = "d772a0f9-ba72-4ec1-8910-319e5a32fb03"
 Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
-KernelAbstractions = "63c18a36-062a-441e-b654-da1e3ab1ce7c"
-Optimisers = "3bd65402-5787-11e9-1adc-39752487f4e2"
-Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
-ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
-Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
-Tullio = "bc48ee85-29a4-5162-ae0b-a64e1601d4bc"
-cuDNN = "02a925ec-e4fe-4b08-9a7e-0d78e3d38ccd"
