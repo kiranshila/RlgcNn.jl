@@ -12,7 +12,7 @@ SsRlgcModel(; N=16) = SsRlgcModel(Chain(Dense(2 => N, tanh), BatchNorm(N), Dense
 
 const PretrainedSsRlgcModel = SsRlgcModel()
 
-state = JLD2.load("data/ss_model.jld2", "state")
+state = JLD2.load("$(@__DIR__)/../data/ss_model.jld2", "state")
 Flux.loadmodel!(PretrainedSsRlgcModel, state)
 
 export SsRlgcModel, PretrainedSsRlgcModel
